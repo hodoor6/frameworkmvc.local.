@@ -61,5 +61,8 @@ echo User::getCount() . '<br>'; //выведет 1
 
 $user2 = new User(
     'user2'); // создаем второй объект класса
+echo User::getCount();
+
+$user2 = new User(
+    'user2'); // создаем второй объект класса
 echo User::getCount(); //выведет 2
-?>
